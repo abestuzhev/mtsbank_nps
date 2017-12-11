@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPS</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="./css/nps-style.css" />
+	<style>
+		body, html {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			font-size: 16px;
+			font-family: 'Lato', Arial, sans-serif;
+		}
+	</style>
+</head>
+
+<body>
+
+<div style="background-color: #ccc; height:60px; width:100%;"></div>
+<div>
+	<div style="background-color:#eee; height: 300px; width: 100%;"></div>
+	<div style="margin: 0 auto; width: 1000px;">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem iusto neque numquam quisquam? Aperiam consequatur deserunt dicta eos esse ex ipsa, nobis ratione, rem reprehenderit suscipit veniam voluptas voluptatum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem iusto neque numquam quisquam? Aperiam consequatur deserunt dicta eos esse ex ipsa, nobis ratione, rem reprehenderit suscipit veniam voluptas voluptatum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem iusto neque numquam quisquam? Aperiam consequatur deserunt dicta eos esse ex ipsa, nobis ratione, rem reprehenderit suscipit veniam voluptas voluptatum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem iusto neque numquam quisquam? Aperiam consequatur deserunt dicta eos esse ex ipsa, nobis ratione, rem reprehenderit suscipit veniam voluptas voluptatum.</p>
+		<div style="background-color:#eee; height: 300px; width: 100%;"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem iusto neque numquam quisquam? Aperiam consequatur deserunt dicta eos esse ex ipsa, nobis ratione, rem reprehenderit suscipit veniam voluptas voluptatum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem iusto neque numquam quisquam? Aperiam consequatur deserunt dicta eos esse ex ipsa, nobis ratione, rem reprehenderit suscipit veniam voluptas voluptatum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem iusto neque numquam quisquam? Aperiam consequatur deserunt dicta eos esse ex ipsa, nobis ratione, rem reprehenderit suscipit veniam voluptas voluptatum.</p>
+
+	</div>
+</div>
+
+
+<!--START NPS опрос-->
+<div class="c-popup nps-questions">
+	<div class="c-popup_close">+</div>
+    <!--закрыть окно-->
+	<div class="all">
+		<div class="container">
+			<form action="" class="container-steps">
+				<div class="step blur first-step">
+					<h1>Вас приветствует МТС Банк</h1>
+					<h4>Помогите нам стать лучше, ответив на 5 вопросов о качестве нашего сайта. Это не займет более 1-2 минут.</h4>
+					<a href="#" class="btn nxt active">Начать</a>
+				</div>
+				<div class="step">
+					<div class="step__number">Вопрос 1 из 5</div>
+					<h3 class="step__title-question">Вы нашли на сайте нужную информацию?</h3>
+					<div class="radio-control">
+						<label><input type="radio" name="question-1" value="да, и достаточно быстро">Да, и достаточно быстро</label>
+						<label><input type="radio" name="question-1" value="да, но процесс поиска был долгий ">Да, но процесс поиска был долгий </label>
+						<label><input type="radio" name="question-1" value="нет, найти не удалось">Нет, найти не удалось</label>
+					</div>
+					<a href="#" class="btn nxt">Далее</a>
+				</div>
+				
+				<div class="step">
+					<div class="step__number">Вопрос 2 из 5</div>
+					<h3 class="step__title-question">Что в первую очередь нам требуется улучшить на нашем сайте?</h3>
+					<div class="step__footnote">Выберите один или несколько вариантов ответа.</div>
+					<div class="radio-control">
+						<label><input type="checkbox" name="question-2" value="Удобство и простоту использования/навигации">Удобство и простоту использования/навигации</label>
+						<label><input type="checkbox" name="question-2" value="Объем информации, представленной на сайте">Объем информации, представленной на сайте</label>
+						<label><input type="checkbox" name="question-2" value="Надежность и быстроту работы сайта">Надежность и быстроту работы сайта</label>
+						<label><input type="checkbox" name="question-2" value="Интерактивную поддержку на сайте">Интерактивную поддержку на сайте</label>
+						<label><input type="checkbox" name="question-2" value="Дизайн сайта и визуальное оформление">Дизайн сайта и визуальное оформление</label>
+						<label id="question-2-other"><input type="checkbox" name="question-2" value="Другое">Другое</label>
+						<input type="text" maxlength="300" id="question-2-other-input" name="question-2-other" placeholder="Введите свое пожелание">
+					</div>
+					<a href="#" class="btn nxt">Далее</a>
+				</div>
+				
+				<div class="step">
+					<div class="step__number">Вопрос 3 из 5</div>
+					<h3 class="step__title-question">Какой информации Вам не хватает на сайте? Напишите в комментарии</h3>
+					<textarea name="question-3" id="" class="" rows="5" autofocus maxlength="300"></textarea>
+					
+					<a href="#" class="btn nxt nxt-textarea">Далее</a>
+				</div>
+				
+				<div class="step">
+					<div class="step__number">Вопрос 4 из 5</div>
+					<h3 class="step__title-question">С какого устройства Вы чаще всего заходите на наш сайт? </h3>
+					<div class="radio-control">
+						<label><input type="radio" name="question-4" value="Смартфон">Смартфон</label>
+						<label><input type="radio" name="question-4" value="Планшет">Планшет</label>
+						<label><input type="radio" name="question-4" value="Настольный компьютер/Ноутбук">Настольный компьютер/Ноутбук</label>
+					</div>
+					<a href="#" class="btn nxt">Далее</a>
+				</div>
+				
+				<div class="step">
+					<div class="step__number">Вопрос 5 из 5</div>
+					<h3 class="step__title-question">И последний вопрос! Насколько вероятно, что Вы порекомендуете МТС Банк своим родным и близким?</h3>
+					<div class="step__footnote">Оцените по шкале от 0 до 10, где 0 - точно не порекомендую, а 10 – точно порекомендую.</div>
+					<div class="radio-nps">
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="1">1</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="2">2</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="3">3</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="4">4</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="5">5</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="6">6</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="7">7</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="8">8</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="9">9</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="10">10</label></div>
+					</div>
+				</div>
+				
+				<div class="step blur" id="one">
+					<div class="step-congratulation">
+						<div class="checkmark"></div>
+						<h2 class="step-congratulation__title">Благодарим Вас за участие в опросе!</h2>
+						<h4 class="step-congratulation__subtitle">Мы учтем Ваши ответы и обязательно станем лучше!</h4>
+						<!--<div>Окно закроется через: 00:0<span class="close-timer">3</span></div>-->
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div><!--end popup-->
+<div class="c-popup_bg"></div>
+<!--END NPS опрос-->
+
+<div class="btn-question_box">
+	<a href="#" class="btn-question">запустить опрос</a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
