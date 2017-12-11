@@ -50,7 +50,8 @@ function StepsSlider() {
         }
     });
 
-    next_button.click(function() {
+    next_button.click(function(e) {
+        e.preventDefault();
         if ($(this).parent().find('input:checked').prop('checked')) {
             active = active + 1;
             if (active >= steps.length) {
