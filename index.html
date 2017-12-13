@@ -101,20 +101,39 @@
 					<h3 class="step__title-question">И последний вопрос! Насколько вероятно, что Вы порекомендуете МТС Банк своим родным и близким?</h3>
 					<div class="step__footnote">Оцените по шкале от 0 до 10, где 0 - точно не порекомендую, а 10 – точно порекомендую.</div>
 					<div class="radio-nps">
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="1">1</label></div>
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="2">2</label></div>
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="3">3</label></div>
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="4">4</label></div>
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="5">5</label></div>
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="6">6</label></div>
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="7">7</label></div>
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="8">8</label></div>
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="9">9</label></div>
-						<div class="radio-nps__item"><label><input type="radio" name="Проект" value="10">10</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="1">1</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="2">2</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="3">3</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="4">4</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="5">5</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="6">6</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="7">7</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="8">8</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="9">9</label></div>
+						<div class="radio-nps__item"><label><input type="radio" name="nps-rating" value="10">10</label></div>
 					</div>
 				</div>
+
+				<div class="step">
+					<h3 class="step__title-question">Мы будем признательны, если Вы заполните форму обратной связи.</h3>
+					<div class="step__footnote">Все поля не обязательны для заполнения</div>
+					<div class="step-grid">
+						<div class="step-col">
+							<label for="nps-user-name"class="c-label" >Имя:</label>
+							<input id="nps-user-name" type="text" name="nps-user-name">
+						</div>
+						<div class="step-col">
+							<label for="nps-user-email" class="c-label" >Email:</label>
+							<input id="nps-user-email" type="text" name="nps-user-email">
+						</div>
+					</div>
+					<div class="radio-control">
+						<label><input type="checkbox" name="question-2" value="Удобство и простоту использования/навигации">Я согласен получать информацию о специальных предложениях и услугах ПАО «МТС-Банк»</label>
+					</div>
+					<a href="#" class="btn nxt js-end-question">Закончить опрос</a>
+				</div>
 				
-				<div class="step blur" id="one">
+				<div class="step " id="one">
 					<div class="step-congratulation">
 						<div class="checkmark"></div>
 						<h2 class="step-congratulation__title">Благодарим Вас за участие в опросе!</h2>

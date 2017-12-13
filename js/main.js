@@ -89,13 +89,22 @@ function StepsSlider() {
             ShowStep(active);
             $('.c-popup_close').css('opacity', '0');
 
-            setTimeout(function(){
-                $('.c-popup_close').trigger('click');
-            }, 3000);
+
         }else {
             console.log('false');
         }
     });
+
+    $('.js-end-question').on('click', function(e){
+        e.preventDefault();
+        setTimeout(function(){
+            $('.c-popup_close').trigger('click');
+        }, 3000);
+        ShowStep(active);
+        $('.c-popup_close').css('opacity', '0');
+    });
+
+
 
     // setTimeout(function(){
     //     var timer_number = parseInt($('.close-timer').html());
