@@ -98,7 +98,7 @@
 }
 
 .nps-questions .step__title-question {
-    font-size: 18x;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1;
     text-align: left;
@@ -193,11 +193,16 @@
     max-width: 600px
 }
 
+.btn {
+    background: url(../img/buttons.png) 0 -35px no-repeat;
+}
+
 .nps-questions .btn {
     margin-top: 0;
     font-weight: 400;
     padding: 10px 40px;
     background-color: #ea212e;
+    background-image: none;
     box-shadow: 0px 16px 49px rgba(234,33,46,0.63);
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -211,6 +216,11 @@
     cursor: pointer;
     opacity: 0;
     text-decoration: none;
+}
+.nps-questions .btn::before,
+.nps-questions .btn::after {
+    content: '';
+    display: none !important;
 }
 
 .nps-questions .btn:hover {

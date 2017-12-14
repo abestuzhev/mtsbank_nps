@@ -8,8 +8,8 @@ function StepsSlider() {
 
     function ShowStep(index) {
         var a = index - 1;
-        $(steps[a]).addClass('blur').fadeOut(0);
-        $(steps[index]).fadeIn(0).removeClass('blur');
+        $(steps[a]).fadeOut(0);
+        $(steps[index]).fadeIn(0);
     }
     var active = 0;
     ShowStep(active);
